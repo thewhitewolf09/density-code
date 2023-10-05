@@ -1,0 +1,113 @@
+
+.contest-main-container{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+ /* styling for genral-contest-list-container */
+ 
+ .contest-select-and-creation-container{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ .genral-contest-list-container{
+     width: 45%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ 
+ 
+ 
+ .genral-contest-list-container span{
+     font-size: 25px;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ .genral-contest-list{
+     overflow-y: scroll;
+     height: 79vh;
+ }
+ 
+ .contest-card-container{
+     display: flex;
+     justify-content: space-around;
+     border: 1px solid #e2e2e2;
+     background-color: #e2e2e2;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 10px;
+ }
+ 
+ .contest-card-container div{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .contest-card-container div div{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+ .input-value-container{
+     display: flex;
+     flex-direction: column !important;
+     margin-right: 10px;
+     align-items: flex-start;
+ }
+ .contest-checkbox-container{
+     justify-content: center;
+ }
+ /* styling for listed contests */
+ 
+ .listed-contest-container{
+    margin-top: 10px ;
+    padding: 10px;
+ }
+ 
+ .listed-contest-container span{
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ .listed-contest-list{
+     display: flex;
+     padding: 10px;
+     flex-wrap: wrap;
+ }
+ .listed-contest-list div{
+     display:  flex;
+     align-items: center;
+     margin: 10px;
+     justify-content: space-between;
+     padding: 10px;
+     border-radius: 20px;
+     width: 190px;
+     background-color: #e2e2e2;
+ }
+ 
+ .listed-contest-text {
+     font-size: 16px !important;
+ }
+ 
+ .contest-publish-container{
+     display: flex;
+     justify-content: flex-end;
+     padding: 30px;
+ }
+ 
+ .contest-publish-container span {
+     background-color: blueviolet;
+     color: white;
+     font-weight: bold;
+     font-size: 17px;
+     padding: 10px;
+     border-radius: 20px;
+     width: 100px;
+     text-align: center;
+     cursor: pointer;
+ }

@@ -1,0 +1,40 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0-beta.10"></script>
+
+		<title>Document</title>
+	</head>
+	<body>
+		<canvas id="canvasId" height="200"></canvas>
+		<script>
+			window.onload = function () {
+				const chartConfig = {
+					// chart config here
+					type: 'line',
+					options: {
+						plugins: {
+							customCanvasBackgroundColor: {
+								color: 'lightGreen',
+							},
+						},
+					},
+					data: {
+						datasets: [
+							{
+								label: 'Cubic interpolation (monotone)',
+								data: [0, 20, 20, 60, 60, 120, 180, 120, 125, 105, 110, 170],
+								fill: false,
+								cubicInterpolationMode: 'monotone',
+								tension: 0.4,
+							},
+						],
+					},
+				}
+				const canvasEl = document.getElementById('canvasId')
+				window.canvasLine = new Chart(canvasEl.getContext('2d'), chartConfig)
+			}
+		</script>
+	</body>
+</html>

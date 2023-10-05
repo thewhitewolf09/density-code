@@ -1,0 +1,4 @@
+.abc {
+	border: 'solid 2px purple';
+	background: linear-gradient(180deg, rgba(95, 64, 221, 0) 0%, #5f40dd 100%);
+}

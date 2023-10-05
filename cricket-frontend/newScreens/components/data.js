@@ -1,0 +1,58 @@
+export const playerData = [
+	{
+		id: 1,
+		player_name: 'Virat Kohli',
+		player_type: 'Batsman',
+		stock_price: 5500,
+		stock_change: 95,
+	},
+	{
+		id: 2,
+		player_name: 'MS Dhoni',
+		player_type: 'Batsman',
+		stock_price: 5500,
+		stock_change: 95,
+	},
+	{
+		id: 3,
+		player_name: 'Shubham Gill',
+		player_type: 'Batsman',
+		stock_price: 5500,
+		stock_change: 95,
+	},
+	{
+		id: 4,
+		player_name: 'Ishan Kishan',
+		player_type: 'Batsman',
+		stock_price: 5500,
+		stock_change: 95,
+	},
+	{
+		id: 5,
+		player_name: 'Virat Kohli',
+		player_type: 'Batsman',
+		stock_price: 5500,
+		stock_change: 95,
+	},
+	{
+		id: 6,
+		player_name: 'Virat Kohli',
+		player_type: 'Batsman',
+		stock_price: 5500,
+		stock_change: 95,
+	},
+	{
+		id: 7,
+		player_name: 'Virat Kohli',
+		player_type: 'Batsman',
+		stock_price: 5500,
+		stock_change: 95,
+	},
+	{
+		id: 8,
+		player_name: 'Virat Kohli',
+		player_type: 'Batsman',
+		stock_price: 5500,
+		stock_change: 95,
+	},
+]
